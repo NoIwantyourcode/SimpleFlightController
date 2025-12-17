@@ -1,32 +1,31 @@
-//Could not add any more functionallity yet due to memory constraints
-//Should be verified and compiled with the Optimize setting in arduino IDE changes from "Smallest (-Os)" to "Smallest (-Os with LTO)"
-//This can be done through Tools --> Optimize
-
-//Needed librarys
 #include <Wire.h>
 #include <SPI.h>
+#include <Servo.h>
 #include <Adafruit_BMP5xx.h>
 #include "ICM45605.h"
 
 Adafruit_BMP5xx bmp;
-ICM456xx imu(SPI, 10, 1000000); // SPI, CS pin, 1 MHz
-//setting ICM45605 CS pin (change later if different) 
+ICM456xx imu(SPI, 10, 1000000); // SPI, CS pin = 10, 1 MHz (change pin number)
+
+Servo servo1;
+Servo servo2;
 
 void setup() {
   Serial.begin(115200);
   Wire.begin();
   SPI.begin();
 
-  // BMP580 init
+  // Initialize BMP580
   if (!bmp.begin(BMP5XX_DEFAULT_ADDRESS, &Wire)) {
-    Serial.println("BMP580 init failed!");
+    Serial.println("BMP580 not found!");
     while (1);
   }
+
   bmp.setTemperatureOversampling((bmp5xx_oversampling_t)BMP5_OVERSAMPLING_8X);
   bmp.setPressureOversampling((bmp5xx_oversampling_t)BMP5_OVERSAMPLING_4X);
   bmp.setIIRFilterCoeff((bmp5xx_iir_filter_t)BMP5_IIR_FILTER_COEFF_3);
 
-  // ICM-45605 init
+  // Initialize IMU
   if (imu.begin() != 0) {
     Serial.println("ICM-45605 init failed!");
     while (1);
@@ -34,26 +33,38 @@ void setup() {
   imu.startAccel(1000, 16);
   imu.startGyro(1000, 2000);
 
+  servo1.attach(3); //change pin number
+  servo2.attach(5); //change pin number
+
   Serial.println("Setup complete.");
 }
 
 void loop() {
-  bmp.performReading();
+  if (!bmp.performReading()) {
+    Serial.println("Failed to read BMP580!");
+    return;
+  }
   float altitude = bmp.readAltitude(1013.25);
 
-  inv_imu_sensor_data_t data;
-  imu.getDataFromRegisters(data); // Pass by reference, not pointer
+  inv_imu_sensor_data_t imuData;
+  imu.getDataFromRegisters(imuData);
 
-  float ax = data.accel_data[0];
-  float ay = data.accel_data[1];
-  float az = data.accel_data[2];
+  float ax = imuData.accel_data[0];
+  float ay = imuData.accel_data[1];
+  float az = imuData.accel_data[2];
 
   float roll = atan2(ay, az) * 57.3;
   float pitch = atan2(-ax, sqrt(ay * ay + az * az)) * 57.3;
+
+  int servo1Angle = constrain(90 + roll, 0, 180);
+  int servo2Angle = constrain(90 + pitch, 0, 180);
+
+  servo1.write(servo1Angle);
+  servo2.write(servo2Angle);
 
   Serial.print("Alt: "); Serial.print(altitude);
   Serial.print(" Roll: "); Serial.print(roll);
   Serial.print(" Pitch: "); Serial.println(pitch);
 
-  delay(20);
+  delay(50);
 }
