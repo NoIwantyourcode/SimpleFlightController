@@ -25,5 +25,6 @@ Rendered PCB View
 
 <img width="1508" height="1602" alt="Screenshot 2025-12-15 163932" src="https://github.com/user-attachments/assets/90286df2-fc1e-4169-97d3-50041e3488af" />
 
+NOTES TO REVIEWER:
 
-Please kindly note that no firmware exists due to the fact that I haven't been able to fabricate the device yet, However I will add firmware after I recieve the device and given suffiecient time to program it
+In the bom.csv file it says that I am using a ICM-45686 Inertial Measurement Unit however, due to part shortfalls at JLCPCB, I have to substitute the ICM-45686 with ICM-45605 as it is another, more availible model
