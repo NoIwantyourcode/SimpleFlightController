@@ -1,4 +1,8 @@
+//Could not add any more functionallity yet due to memory constraints
+//Should be verified and compiled with the Optimize setting in arduino IDE changes from "Smallest (-Os)" to "Smallest (-Os with LTO)"
+//This can be done through Tools --> Optimize
 
+//Needed librarys
 #include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_BMP5xx.h>
@@ -6,6 +10,7 @@
 
 Adafruit_BMP5xx bmp;
 ICM456xx imu(SPI, 10, 1000000); // SPI, CS pin, 1 MHz
+//setting ICM45605 CS pin (change later if different) 
 
 void setup() {
   Serial.begin(115200);
