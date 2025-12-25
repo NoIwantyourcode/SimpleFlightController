@@ -28,3 +28,8 @@ Rendered PCB View
 NOTES TO REVIEWER:
 
 In the bom.csv file it says that I am using a ICM-45686 Inertial Measurement Unit however, due to part shortfalls at JLCPCB, I have to substitute the ICM-45686 with ICM-45605 as it is another, more availible model
+
+The additional cost in my grant is due to initial setup prices and fees due to the use of PCBA
+Here is a screenshot of the additional fees
+<img width="1204" height="1013" alt="Screenshot 2025-12-25 091333" src="https://github.com/user-attachments/assets/65777d78-d42f-4cb8-b98d-d4e9de45528e" />
+
