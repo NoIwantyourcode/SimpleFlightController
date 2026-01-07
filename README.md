@@ -1,4 +1,4 @@
-![capture-2026-01-07T09_21_54 800Z](https://github.com/user-attachments/assets/b111c98d-c196-4c09-8e3f-e6ee43a9415e)# Introduction
+# Introduction
 Hi!,
 
 Welcome to my simple filght controller repository
