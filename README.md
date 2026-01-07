@@ -27,9 +27,10 @@ Here are a few images of the Flight controller Schematics, PCB view and Rendered
 <img width="812" height="859" alt="Screenshot 2026-01-07 170835" src="https://github.com/user-attachments/assets/350d68de-e507-4566-a1d3-9598cfb580dd" />
 <img width="839" height="914" alt="Screenshot 2026-01-07 172151" src="https://github.com/user-attachments/assets/a27f8c43-7d36-453b-a670-48b9be627962" />
 
-# Display case
+# Display case (one screenshot is fitted with PCB)
 
 <img width="2879" height="1802" alt="Screenshot 2026-01-07 182156" src="https://github.com/user-attachments/assets/70af9535-5e28-40b0-8b3e-f141e1af7bb6" />
+<img width="2879" height="1800" alt="Screenshot 2026-01-07 181136" src="https://github.com/user-attachments/assets/b0dbb9a8-ae51-4e11-b7f9-e2327e7a965d" />
 
 NOTES TO REVIEWER:
 
