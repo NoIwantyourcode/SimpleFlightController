@@ -1,0 +1,43 @@
+Your BOM,,,Order Information,,,,,
+Component,Comment,Footprint,JLCPCB Part #,Product link,Lib Type,Qty,Source,Total Price ($)
+Capacitor,1uF,0402,C52923,https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923,Basic,20,20 JLCPCB,0.06
+Capacitor,10uF,0402,C15525,https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525,Basic,20,20 JLCPCB,0.088
+Capacitor,44uF,0805,C16780,https://jlcpcb.com/partdetail/17464-CL21A476MQYNNNE/C16780,Basic,8,8 JLCPCB,0.2288
+Capacitor,47nF,0201,C505465,https://jlcpcb.com/partdetail/YAGEO-CC0201KRX5R7BB473/C505465,Extended,20,20 JLCPCB,0.056
+Capacitor,10uF,0805,C440198,https://jlcpcb.com/partdetail/439567-GRM21BR61H106KE43L/C440198,Basic,8,8 JLCPCB,0.4968
+Capacitor,10uF,0603,C19702,https://jlcpcb.com/partdetail/20411-CL10A106KP8NNNC/C19702,Basic,20,20 JLCPCB,0.116
+Capacitor,22uF,0805,C45783,https://jlcpcb.com/partdetail/46786-CL21A226MAQNNNE/C45783,Basic,20,20 JLCPCB,0.476
+Capacitor,100nF,0201,C76934,https://jlcpcb.com/partdetail/MurataElectronics-GRM033R61A104KE15D/C76934,Extended,36,36 JLCPCB,0.0432
+Capacitor,2.2uF,0603,C23630,https://jlcpcb.com/partdetail/24366-CL10A225KO8NNNC/C23630,Basic,20,20 JLCPCB,0.112
+Capacitor,22uF,0402,C415703,https://jlcpcb.com/partdetail/408393-GRM155R60J226ME11D/C415703,Extended,8,8 JLCPCB,0.2704
+Capacitor,20pF,0201,C76923,https://jlcpcb.com/partdetail/MurataElectronics-GRM0335C1H200JA01D/C76923,Extended,20,20 JLCPCB,0.05
+Capacitor,6.8pF,0201,C85916,https://jlcpcb.com/partdetail/MurataElectronics-GRM0335C1H6R8CA01D/C85916,Extended,20,20 JLCPCB,0.038
+Capacitor,2.2uF,0201,C319184,https://jlcpcb.com/partdetail/300450-GRM033R61A225ME47D/C319184,Extended,20,20 JLCPCB,0.204
+MicroSD card ,TF-01A,TF-SMD_TF-01A,C91145,https://jlcpcb.com/partdetail/Korean_HropartsElec-TF01A/C91145,Extended,2,2 JLCPCB,0.3512
+LED,LED,0402,C965793,https://jlcpcb.com/partdetail/XINGLIGHT-XL1005UGC/C965793,Extended,20,20 JLCPCB,0.152
+Battery terminal,Screw_Terminal_01x02,TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal,C557685,https://jlcpcb.com/partdetail/Ningbo_Xinlaiya_Elec-XY308_2_542P/C557685,Extended,2,2 JLCPCB,0.4658
+Servo pin headers,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,C49257,https://jlcpcb.com/partdetail/50265-2_54_1_3P/C49257,Extended,10,10 JLCPCB,0.169
+Inductors,1uH,L2520,C435392,https://jlcpcb.com/partdetail/MurataElectronics-DFE252012F_1R0MP2/C435392,Extended,5,5 JLCPCB,0.5115
+Inductors,1.5uH,IND-SMD_L4.0-W4.0-A,C7417180,https://jlcpcb.com/partdetail/Coilcraft-XGL4020152MEC/C7417180,Extended,2,2 JLCPCB,2.66
+Inductors,5.6uH,IND-SMD_L3.0-W3.0,C5120864,https://jlcpcb.com/partdetail/CENKER-CKCS3015_5_6uHM/C5120864,Extended,15,15 JLCPCB,0.489
+Inductors,FCM1608KF-601T03,L0603,C141723,https://jlcpcb.com/partdetail/TAITECH-FCM1608KF601T03/C141723,Extended,20,20 JLCPCB,0.094
+Resistors,5.1K,0201,C270344,https://jlcpcb.com/partdetail/259874-0201WMF5101TEE/C270344,Extended,20,20 JLCPCB,0.016
+Resistors,5.23K,0201,C332546,https://jlcpcb.com/partdetail/RALEC-RTT015231FTH/C332546,Extended,20,20 JLCPCB,0.02
+Resistors,30.1K,0201,C273278,https://jlcpcb.com/partdetail/YAGEO-RC0201FR0730K1L/C273278,Extended,20,20 JLCPCB,0.02
+Resistors,383,0201,C423551,https://jlcpcb.com/partdetail/416501-0201WMF3830TEE/C423551,Extended,20,20 JLCPCB,0.01
+Resistors,10K,0201,C7467266,https://jlcpcb.com/partdetail/FOJAN-FRC0201J103TS/C7467266,Extended,40,40 JLCPCB,0.024
+Resistors,100K,0402,C25741,https://jlcpcb.com/partdetail/26484-0402WGF1003TCE/C25741,Basic,20,20 JLCPCB,0.012
+Resistors,22.1K,0201,C423662,https://jlcpcb.com/partdetail/416612-0201WMF2212TEE/C423662,Extended,20,20 JLCPCB,0.016
+Boot and Reset switch,TS-1088-AR02016,SW-SMD_L3.9-W3.0-P4.45,C720477,https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477,Basic,8,8 JLCPCB,0.3544
+STM32 Chip,STM32F722RETx,LQFP-64_10x10mm_P0.5mm,C118207,https://jlcpcb.com/partdetail/STMicroelectronics-STM32F722RET6/C118207,Extended,2,2 JLCPCB,10.3024
+Battery management IC,BQ25883RGER,VFQFPN-24_L4.0-W4.0-P0.50-BL-EP2.8,C544362,https://jlcpcb.com/partdetail/TexasInstruments-BQ25883RGER/C544362,Extended,2,2 JLCPCB,9.4208
+Barometric Sensor,BMP580,LGA-10_L2.0-W2.0-P0.50-TL_BMP580,C22391138,https://jlcpcb.com/partdetail/BoschSensortec-BMP580/C22391138,Extended,2,2 JLCPCB,2.1662
+Buck Boost Converter,TPS63070RNMR,VQFN-HR-15_L3.0-W2.5-P0.50-BL_TPS63070RNMR,C2071354,https://jlcpcb.com/partdetail/TexasInstruments-TPS630702RNMR/C2071354,Extended,2,2 JLCPCB,3.432
+Buck Boost converter,LMR51430,SOT-23-6,C5219261,https://jlcpcb.com/partdetail/TexasInstruments-LMR51430YFDDCR/C5219261,Extended,2,2 JLCPCB,1.813
+Inertial Measurement Unit,ICM-45686,LGA-14_L3.0-W2.5-P0.50-TL,C38673635,https://jlcpcb.com/partdetail/TDKInvenSense-ICM45605/C38673635,Extended,2,2 JLCPCB,14.2938
+Type C port,TYPE-C16PIN2MD(073),USB-C-SMD_TYPE-C-6PIN-2MD-073,C2765186,https://jlcpcb.com/partdetail/SHOUHAN-TYPE_C_16PIN_2MD_073/C2765186,Extended,3,3 JLCPCB,0.189
+Crystal,X322525MOB4SI,CRYSTAL-SMD_4P-L3.2-W2.5-BL,C9006,https://jlcpcb.com/partdetail/YXC_CrystalOscillators-X322525MOB4SI/C9006,Basic,6,6 JLCPCB,0.4098
+Crystal,X321532768KGD2SI,OSC-SMD_L3.2-W1.5,C620155,https://jlcpcb.com/partdetail/649983-X321532768KGD2SI/C620155,Extended,5,5 JLCPCB,1.0905
+,,,,,,,Total Price:,50.7216
+,,,,,,,Other fees,96.89
+,,,,,,,Total Incl. Fees and Shipping,148.3
