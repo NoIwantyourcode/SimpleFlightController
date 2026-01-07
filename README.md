@@ -15,21 +15,16 @@ Here are a few images of the Flight controller Schematics, PCB view and Rendered
 
 Schematics
 
-<img width="1932" height="1350" alt="Screenshot 2025-12-15 163903" src="https://github.com/user-attachments/assets/51e2c16e-0443-4583-9407-e583dba2b9d7" />
+<img width="1499" height="1063" alt="Screenshot 2026-01-07 170808" src="https://github.com/user-attachments/assets/6a7e3cd3-3884-42f1-b248-0b2f4b2a6139" />
 
 PCB view
 
-<img width="920" height="977" alt="Screenshot 2025-12-15 163915" src="https://github.com/user-attachments/assets/a5bf359d-3725-41cc-81fe-5ed7ffa72f5a" />
+<img width="790" height="858" alt="Screenshot 2026-01-07 170818" src="https://github.com/user-attachments/assets/fb0c22fe-35da-4bb0-9756-fb371b1348ea" />
 
 Rendered PCB View
 
-<img width="1508" height="1602" alt="Screenshot 2025-12-15 163932" src="https://github.com/user-attachments/assets/90286df2-fc1e-4169-97d3-50041e3488af" />
+<img width="812" height="859" alt="Screenshot 2026-01-07 170835" src="https://github.com/user-attachments/assets/350d68de-e507-4566-a1d3-9598cfb580dd" />
 
 NOTES TO REVIEWER:
 
-In the bom.csv file it says that I am using a ICM-45686 Inertial Measurement Unit however, due to part shortfalls at JLCPCB, I have to substitute the ICM-45686 with ICM-45605 as it is another, more availible model
-
-The additional cost in my grant is due to initial setup prices and fees due to the use of PCBA
-Here is a screenshot of the additional fees
-<img width="1204" height="1013" alt="Screenshot 2025-12-25 091333" src="https://github.com/user-attachments/assets/65777d78-d42f-4cb8-b98d-d4e9de45528e" />
-
+I have had to substitute a few of components due to part shortfa;;es like the ICM-45686 had to substituted with the ICM-45605
