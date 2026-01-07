@@ -27,4 +27,4 @@ Rendered PCB View
 
 NOTES TO REVIEWER:
 
-I have had to substitute a few of components due to part shortfa;;es like the ICM-45686 had to substituted with the ICM-45605
+I have had to substitute a few of components due to part shortfalls like the ICM-45686 had to substituted with the ICM-45605
